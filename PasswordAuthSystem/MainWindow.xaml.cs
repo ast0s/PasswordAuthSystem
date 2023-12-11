@@ -68,10 +68,5 @@ namespace PasswordAuthSystem
                 txtCongrats.Text = "Try again!";
             }
         }
-
-        private void txtLength_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
-        {
-
-        }
     }
 }
