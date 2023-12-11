@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
             
         <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBox x:Name="txtLength" Text="n" Width="300" Height="50" Margin="10" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextChanged="txtLength_TextChanged"/>
+            <TextBox x:Name="txtLength" Text="n" Width="300" Height="50" Margin="10" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             <Button x:Name="btnGenerate" Width="300" Height="50" Margin="10" FontSize="36" Content="Generate" Click="btnGenerate_Click"/>
             <TextBox x:Name="txtPassword" Text="" Width="300" Height="50" Margin="10" FontSize="36" IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         </StackPanel>
